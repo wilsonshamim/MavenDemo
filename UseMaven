@@ -1,0 +1,22 @@
+1. From the eclipse create a new maven project.
+2. provide the below details
+
+group id - com.test
+artifacts id - MyProj
+
+
+3. a project with the name MyProj will be created
+
+4. in the src/main/java a package with the name com.test.MyProj is created. add a class file under it.
+
+5. then right click and use the option maven --> build. provide clean install 
+
+This will generate the jar file.
+
+other option is, navigate the project from the command line and enteer the below command.
+
+mvn package
+
+or mvn install.
+
+
